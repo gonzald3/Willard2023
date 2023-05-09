@@ -138,7 +138,7 @@ function Navibar() {
                   id="twitter-tooltip"
                 >
                   <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
+                  {/* <p className="d-lg-none d-xl-none">Twitter</p> */}
                 </NavLink>
 
               </NavItem>
@@ -149,7 +149,7 @@ function Navibar() {
                   id="facebook-tooltip"
                 >
                   <i className="fab fa-facebook-square"></i>
-                  <p className="d-lg-none d-xl-none">Facebook</p>
+                  {/* <p className="d-lg-none d-xl-none">Facebook</p> */}
                 </NavLink>
 
               </NavItem>
@@ -160,7 +160,7 @@ function Navibar() {
                     id="instagram-tooltip"
                 >
                   <a><i className="fab fa-instagram"></i></a>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
+                  {/* <p className="d-lg-none d-xl-none">Instagram</p> */}
                 </NavLink>
 
               </NavItem>
