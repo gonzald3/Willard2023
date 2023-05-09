@@ -19,11 +19,11 @@ function Home() {
   return (
     <>
       <Navibar />
-      <div className="page-header clear-filter" filter-color="blue">
+      <div className="page-header">
                 <div
                     className="page-header-image"
                     style={{
-                        backgroundImage: "url(" + require("../Img/florida.jpg") + ")",
+                        backgroundImage: "url(" + require("../Img/ReceptionDeskCompressed.jpg") + ")",
                     }}
                 ></div>
                 <div className="content">
