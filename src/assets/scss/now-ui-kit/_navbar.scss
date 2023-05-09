@@ -51,8 +51,8 @@
 
         .nav-link:not(.btn){
             text-transform: uppercase;
-            font-weight: 600;
-            font-size: $btn-icon-font-size-regular;
+            font-weight: bold;
+            font-size: $font-size-mini;
             padding: $padding-base-vertical $padding-base-horizontal;
             line-height: $line-height-nav-link;
             margin: -100px 1px 2px 3px;
