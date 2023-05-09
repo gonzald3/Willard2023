@@ -1,0 +1,16 @@
+.navbar-toggler.spin .top-bar {
+    transform: translateY(5px) rotate(45deg);
+}
+  
+  .navbar-toggler.spin .middle-bar {
+    opacity: 0;
+    color: white;
+}
+
+.navbar-toggler.spin .bottom-bar {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.navbar-toggler {
+    overflow: visible;
+  }

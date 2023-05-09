@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import "../Tools/Navibar.css"
 // reactstrap components
 import {
   Collapse,
@@ -60,19 +62,20 @@ function Navibar() {
                 src={require("../Img/circle-cropped.png")}
             ></img>
 
-            <button
-              className="navbar-toggler navbar-toggler"
-              onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
-                setCollapseOpen(!collapseOpen);
-              }}
-              aria-expanded={collapseOpen}
-              type="button"
-            >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
-            </button>
+          <button
+            className={"navbar-toggler navbar-toggler" + (collapseOpen ? " spin" : "")}
+            onClick={() => {
+              document.documentElement.classList.toggle("nav-open");
+              setCollapseOpen(!collapseOpen);
+            }}
+            aria-expanded={collapseOpen}
+            type="button"
+          >
+            <span className="navbar-toggler-bar top-bar"></span>
+            <span className="navbar-toggler-bar middle-bar"></span>
+            <span className="navbar-toggler-bar bottom-bar"></span>
+          </button>
+
           </div>
           <Collapse
             className="justify-content-end"
@@ -80,29 +83,29 @@ function Navibar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
+            <NavItem>
                 <NavLink to="/home" tag={Link}>
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/home" tag={Link}>
-                  Home
+                <NavLink to="/OurTeam" tag={Link}>
+                  Our Team
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/home" tag={Link}>
-                  Home
+                <NavLink to="/Services" tag={Link}>
+                  Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/home" tag={Link}>
-                  Home
+                <NavLink to="/Properties" tag={Link}>
+                  Properties
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/home" tag={Link}>
-                  Home
+                <NavLink to="/ContactUs" tag={Link}>
+                  ContactUs
                 </NavLink>
               </NavItem>
               {/* <NavItem>
@@ -164,6 +167,8 @@ function Navibar() {
                 </NavLink>
 
               </NavItem>
+
+
             </Nav>
           </Collapse>
         </Container>
