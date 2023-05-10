@@ -23,7 +23,7 @@ function DefaultFooter() {
                         <div>
                         <i className="fa fa-home" aria-hidden="true" style={{color: "black"}}></i>
                         </div>
-                        <a href="#" style={{color: "black"}} className="contact-link">1860 SW Fountainview Blvd. <br></br> Port Saint Lucie, FL 34986</a>
+                        <a href="https://www.google.com/maps/dir/42.2412288,-71.0148096/1860+SW+Fountainview+Blvd,+Port+St.+Lucie,+FL+34986/@34.4430033,-85.3523432,5z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88deeb7f6a4ac5c1:0x7fc1901a84852bba!2m2!1d-80.4115919!2d27.3092625" style={{color: "black"}} className="contact-link">1860 SW Fountainview Blvd. <br></br> Port Saint Lucie, FL 34986</a>
                     </span>
                 </a>
 

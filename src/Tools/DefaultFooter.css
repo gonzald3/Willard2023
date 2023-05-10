@@ -7,14 +7,13 @@
   }
 
   .contact-link {
-    color: black;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-  }
-  
-  .contact-link:hover {
-    color: black;
-    text-decoration: none;
-    transform: scale(1.05);
-  }
-  
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.05);
+}
