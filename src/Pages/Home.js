@@ -1,6 +1,8 @@
 import React from "react";
 import Navibar from "../Tools/Navibar";
 import {Col, Container, Row} from "reactstrap";
+import Testimonials from "../Tools/Testimonials";
+import DefaultFooter from "../Tools/DefaultFooter";
 
 
 
@@ -129,7 +131,7 @@ function Home() {
 
                     </Col>
                   </Row>
-                  {/* <Row><Testimonials /></Row> */}
+                  <Row><Testimonials /></Row>
 
                 </div>
               </Container>
@@ -137,7 +139,7 @@ function Home() {
 
 
         </div>
-        {/* <DefaultFooter /> */}
+        <DefaultFooter />
       </div>
 
 
