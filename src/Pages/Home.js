@@ -3,7 +3,7 @@ import Navibar from "../Tools/Navibar";
 import {Col, Container, Row} from "reactstrap";
 import Testimonials from "../Tools/Testimonials";
 import DefaultFooter from "../Tools/DefaultFooter";
-
+import Background from '../Tools/Background'
 
 
 function Home() {
@@ -26,23 +26,7 @@ function Home() {
         <div className="wrapper">
         
 
-        <div className="page-header">
-                <div
-                    className="page-header-image"
-                    style={{
-                        backgroundImage: "url(" + require("../Img/ReceptionDeskCompressed.jpg") + ")",
-                    }}
-                ></div>
-                <div className="content">
-
-                </div>
-
-
-                                        
-
-                
-        </div>
-
+        <Background imageUrl={require("../Img/ReceptionDeskCompressed.jpg")} />
 
 
         
