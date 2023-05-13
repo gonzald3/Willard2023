@@ -46,7 +46,7 @@ function DefaultFooter() {
                         <a href="tel:7723403444" className="contact-link">
                             <i className="fa fa-phone" aria-hidden="true"></i>   772.340.3444
                         </a>
-                        <div className="footer-social">
+                        <div className="footer-widget">
                             <ul>
                             {/* Add a space using CSS */}
                             <div><br></br></div>
